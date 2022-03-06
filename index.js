@@ -18,7 +18,7 @@ submit_buttom.addEventListener("click",(e)=>{
         chrome.scripting.executeScript({
             
             target: { tabId: currTab.id },
-            files: ["messenger.js"]
+            files: ["whatsapp.js"]
         });
     })
 

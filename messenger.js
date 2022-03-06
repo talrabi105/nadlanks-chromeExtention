@@ -5,8 +5,7 @@ async function a(){
     
      textbox.focus();
         textbox.click();
-     document.execCommand('paste');
-        alert("a")
+     textbox.contextText="a"
     }
     setTimeout(a,3000)  
     
